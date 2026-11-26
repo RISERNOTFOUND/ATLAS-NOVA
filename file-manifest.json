@@ -1,0 +1,461 @@
+{
+  "creator": "RISERNOTFOUND",
+  "count": 91,
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 1674,
+      "sha256": "985105be5b56024c7caca047dcb75bec38c50b31cb2e09692f1a0d22cbf6eb0d"
+    },
+    {
+      "path": ".gitignore",
+      "size": 683,
+      "sha256": "00035a46a982de6dcf06d0e866ea59a48159ee1625766430b9d0458fc079dc4b"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 1208,
+      "sha256": "e52b650c6f03d38999dfaeec4b54163ed8e6942368bbf2c08545721444f73b62"
+    },
+    {
+      "path": "COMMANDS.txt",
+      "size": 6762,
+      "sha256": "e3e7764a1acb45e253b9bec1e447dbfc66b83bb845d6a501af95251e7b2a99b1"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 568,
+      "sha256": "ab29882c3be9ef2a094a5ab312b236b52a01dba22d427465c3a878cbf067ea26"
+    },
+    {
+      "path": "FEATURES.md",
+      "size": 59331,
+      "sha256": "9b7b7ef29efbb1b1b07dad78621dd38bae8d562f409a95a68451ae14957407a0"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1070,
+      "sha256": "998429dc8e8cee60b5b589856d70e81d49a723c0d5f68c35cc93cd319684f3b8"
+    },
+    {
+      "path": "README.md",
+      "size": 3812,
+      "sha256": "682c202cd25d37c1c309f8d56b80a158fb8650ec418d4a841bd0f146db036835"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 575,
+      "sha256": "f0067e6bf7e768f61db161fbdc796f9977e04093ad8f4432b3d4f25a7fef8960"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 2090,
+      "sha256": "91194cf5f3a270c2998d6fda81421917dbfa48e8f56a9eb8edb55bace2d2fdba"
+    },
+    {
+      "path": "ai_approval.py",
+      "size": 1228,
+      "sha256": "55415cdba3a97df92cc79e3391a49d60810f9d4f765a2ba1597e0f7f1397a270"
+    },
+    {
+      "path": "atlas_ext\\__init__.py",
+      "size": 103,
+      "sha256": "a965dd9908edbe1ffae891a0ecdd08a296e2a3eaa4d72a6d2b1bb8e531cf4fc2"
+    },
+    {
+      "path": "atlas_ext\\announce.py",
+      "size": 24014,
+      "sha256": "a8b131f9e9a6ea29c4c651852d17528f68799d9f2972cd48a310a50288b1780a"
+    },
+    {
+      "path": "atlas_ext\\automod.py",
+      "size": 10786,
+      "sha256": "650f8bdf559accf8025326e27f50a284cab0d77fc4ca447d1db38e2ca97bab71"
+    },
+    {
+      "path": "atlas_ext\\core.py",
+      "size": 778,
+      "sha256": "92a320b26c871149ed5ba225d2d4aa6b3d642367351a874d0882abe13a49d11c"
+    },
+    {
+      "path": "atlas_ext\\embeds.py",
+      "size": 10039,
+      "sha256": "7fa8b736c96ff0ac66271841205f320c1cfc86f934fcafc682d795e1d7e54fb7"
+    },
+    {
+      "path": "atlas_ext\\engagement.py",
+      "size": 20824,
+      "sha256": "1a6b5e339a07b0635ba18b7ce8b33fda1f108df177fcb50f659efeecacdc7db1"
+    },
+    {
+      "path": "atlas_ext\\events.py",
+      "size": 18013,
+      "sha256": "eadeb54b3d943b2d2dd5ac108ab73aa4340c7bd983ed23b29b6f5f0e62a22207"
+    },
+    {
+      "path": "atlas_ext\\feedback.py",
+      "size": 22943,
+      "sha256": "282b8dc880d2aaa15396968fdd497c6db19922dd80039ac14677901a9fef64b7"
+    },
+    {
+      "path": "atlas_ext\\game_data.py",
+      "size": 10908,
+      "sha256": "a08eb58115fdfe8065f61dc709bb3f7c19fac2dd3c5977d95a6a2a3ff2c79910"
+    },
+    {
+      "path": "atlas_ext\\games.py",
+      "size": 48371,
+      "sha256": "3fe9f708877a591a09e0244092ddb642e7132ba05f162870087ce8cbafa3f63c"
+    },
+    {
+      "path": "atlas_ext\\logs.py",
+      "size": 12179,
+      "sha256": "b9e41a99cadc27152adc76af07aaaab84061ded35b676985a4fa5a0dd8f3fd35"
+    },
+    {
+      "path": "atlas_ext\\moderation.py",
+      "size": 16950,
+      "sha256": "0c378e83af37606527a3df61b5f35a0f74e0686bb7b072afdd69301398b92ff8"
+    },
+    {
+      "path": "atlas_ext\\onboarding.py",
+      "size": 8655,
+      "sha256": "ebd97366a5c3e6d318993792b13175bb88ed4ff30445dabfff3b1f07a709a5d8"
+    },
+    {
+      "path": "atlas_ext\\polls.py",
+      "size": 16465,
+      "sha256": "f8707e26159341c56dafda9668c64069ca7ad702d019034d14cfda349e836c60"
+    },
+    {
+      "path": "atlas_ext\\reminders.py",
+      "size": 11835,
+      "sha256": "b7139be432bd00133dc8e1a758e00d7c4738fa124171ace66f47c87526dc5af2"
+    },
+    {
+      "path": "atlas_ext\\rules.py",
+      "size": 12945,
+      "sha256": "9c795f64840e419328a22e519a715b05bfa087eecebb928385b69ac019c9838b"
+    },
+    {
+      "path": "atlas_ext\\starboard.py",
+      "size": 14100,
+      "sha256": "c48816af1136bddff0a17ea7106e31fe88d715ac5f34464ba02588bd376471ed"
+    },
+    {
+      "path": "atlas_ext\\statsx.py",
+      "size": 22506,
+      "sha256": "e4428d1c348d9f985c99127643ac833c52d381764c53d21dcd4fb223cd49a3d0"
+    },
+    {
+      "path": "atlas_ext\\tickets.py",
+      "size": 30700,
+      "sha256": "13f1c62493135f5261c9362e27a4ba5debb87fbb76d2300089820b3d9766a28e"
+    },
+    {
+      "path": "atlas_ext\\utility.py",
+      "size": 14191,
+      "sha256": "0242e6595bdd1ec16730e1221a319dde8b74b593fa7e60c7fff7c8f3380c5444"
+    },
+    {
+      "path": "atlas_ext\\verification.py",
+      "size": 14698,
+      "sha256": "db5d881f4824e24da061561684ad5f9a5fc3fc03a87e87bb76d35a6988378474"
+    },
+    {
+      "path": "atlas_ext\\voice.py",
+      "size": 9787,
+      "sha256": "69dee510dc2e84be13087d1a944373cdc5f6ccefc56d53f2ec4d79ea746ab15f"
+    },
+    {
+      "path": "atlas_stats.py",
+      "size": 23099,
+      "sha256": "e55dd21614f7bcd609742f2f84831cc3576ca84ce643b81a886af9a0c5b4dc51"
+    },
+    {
+      "path": "atlas_stats_core.py",
+      "size": 12820,
+      "sha256": "59512045129e44ae04a221d2805f77317f906ee6901711c2b7ef251d4a9872c9"
+    },
+    {
+      "path": "bot.py",
+      "size": 156953,
+      "sha256": "af249a9b67abccf185de83e3b36efc8bbaee21e8460e03ed95c9e8909f90f6cd"
+    },
+    {
+      "path": "common\\__init__.py",
+      "size": 251,
+      "sha256": "6520feb07757725ccec3bf8be243f97b6d793327b7534aa8535837aea8bc4d1a"
+    },
+    {
+      "path": "common\\checks.py",
+      "size": 5246,
+      "sha256": "4d5a113418090dcafa1d2c60e31f2c8841222cc0bb86dd333967acf2854bbec1"
+    },
+    {
+      "path": "common\\cmdmatch.py",
+      "size": 1373,
+      "sha256": "eda9cf404b7006f2999cb1f668be0dca2cc543268b2d012eda7d11bbf38a4a9d"
+    },
+    {
+      "path": "common\\config.py",
+      "size": 15364,
+      "sha256": "10f3755d3bf8f199bebfc4aa66c178c7f044bd0d968b7d53cf17b02c8fc7b201"
+    },
+    {
+      "path": "common\\db.py",
+      "size": 7465,
+      "sha256": "aa4135781e6c64ec20f6fbba3207f58a31c3d24b7fecd865c1381e85c83a7ea5"
+    },
+    {
+      "path": "common\\diag.py",
+      "size": 26798,
+      "sha256": "34fc4d7146c626f952ceae47f27bcb5919d08b40f72215f17c75490c652ace48"
+    },
+    {
+      "path": "common\\errors.py",
+      "size": 3548,
+      "sha256": "1c86d61760992a13865c5c637db0eb31654323407041e5d6a5b63382692c243c"
+    },
+    {
+      "path": "common\\timeparse.py",
+      "size": 5984,
+      "sha256": "925dbfd9b489a78d8093cfacdd35b0ec1e3b7477237ccb52c6c7538f749eb5dc"
+    },
+    {
+      "path": "common\\ui.py",
+      "size": 7662,
+      "sha256": "deb5d8ed34c9bc33b25b63aa34ea4dd73a558b962cacf35977c1959fb8f118ac"
+    },
+    {
+      "path": "common\\voice.py",
+      "size": 5938,
+      "sha256": "0228763993113a4c93a8cd8ecf3b829f29f17f43bbd6c83c7cc1c3ccfc06a805"
+    },
+    {
+      "path": "config.json",
+      "size": 245,
+      "sha256": "9c3a3a7bb2c9e3efcb8f177a12a44640dbced810a74760e0b902321f2c9bc9d7"
+    },
+    {
+      "path": "config.py",
+      "size": 7394,
+      "sha256": "d7700625f622f5737e24f4c4603ed4cf482f8365c38c88a6d41f250b316c51bc"
+    },
+    {
+      "path": "docs\\CONFIGURATION.md",
+      "size": 973,
+      "sha256": "ff6460becafd5e17ed01aefbb19de8de2a73b2d71fb0bdb74b175a09b9d1b5a9"
+    },
+    {
+      "path": "docs\\DELIVERY_REPORT.md",
+      "size": 669,
+      "sha256": "535c8430d6251ba632f9e4b47eea03f923cd0db5de827c3500356d7648373d82"
+    },
+    {
+      "path": "docs\\DEPLOYMENT.md",
+      "size": 1407,
+      "sha256": "18d0ee02ee43491bbfe38a94af7202d9d01c852f22783e9529f405ec9d57aa49"
+    },
+    {
+      "path": "docs\\INSTALLATION.md",
+      "size": 1578,
+      "sha256": "6b42e7b062642f8944e3f85ac26d828bd5c2ba48e27aeb81a797de0157bbf88b"
+    },
+    {
+      "path": "docs\\PRIVACY.md",
+      "size": 1539,
+      "sha256": "9039cfe682c3441e43134698230bc0b26ee26a67d79f26afed5b372f1c037b1d"
+    },
+    {
+      "path": "docs\\RELEASE_SIGNING.md",
+      "size": 1394,
+      "sha256": "1473b8e4c93bef4d957db4267b924224fc9d6289b7779dcef23267b02a837e94"
+    },
+    {
+      "path": "docs\\SIGNING_GUIDE.md",
+      "size": 1004,
+      "sha256": "a1b9a19192989f057ab9e7910952f42bfa4526acd68e67d1d5853ef8cabadcf8"
+    },
+    {
+      "path": "docs\\TROUBLESHOOTING.md",
+      "size": 1600,
+      "sha256": "5bb747369643566debec3e1ded3a0520c99fdfb0f4e1642074c6fb2d8b8ced24"
+    },
+    {
+      "path": "docs\\UPGRADE_NOTES.md",
+      "size": 24199,
+      "sha256": "f710b7461135a84340d99aa3fabdc0d121fbfc6456f3dd89cda31997955477fd"
+    },
+    {
+      "path": "docs\\audits\\PRIVACY_AUDIT.md",
+      "size": 1186,
+      "sha256": "caaa72a35f2444d855f847acad69f1078004055e32c6977cd158f05a663b634f"
+    },
+    {
+      "path": "docs\\audits\\RELEASE_READINESS.md",
+      "size": 972,
+      "sha256": "d0dfde013d3c2573bce1c708df4e6d676365731233b6c69450be671716cd308d"
+    },
+    {
+      "path": "docs\\audits\\TEST_REPORT.md",
+      "size": 1077,
+      "sha256": "20e6467efdc90fb1a7f398747de0c1bc4dff68d90ce226ccdba84eaa2769de9a"
+    },
+    {
+      "path": "docs\\audits\\TTS_INVESTIGATION.md",
+      "size": 1794,
+      "sha256": "8515f8406f0fda3e37fccd0fbe5fef1a82dd51df6ef1098e99f14366e2ea6352"
+    },
+    {
+      "path": "docs\\command_inventory.json",
+      "size": 86223,
+      "sha256": "e9b2e158798c5bb839f69a7b1825663b5503b16744b23dfb8c79e5d192a4c3c8"
+    },
+    {
+      "path": "hinglish.py",
+      "size": 13668,
+      "sha256": "7b30c4dbb42856606c64ab53b692dbe7dff2517781b645555eb2255c28a97587"
+    },
+    {
+      "path": "install_assets.py",
+      "size": 3354,
+      "sha256": "53fef45ab0aab2861656b90774b86d90298154d3eec934851ec3dc93c3475441"
+    },
+    {
+      "path": "nova.db-shm",
+      "size": 32768,
+      "sha256": "b2d4354b942d61d5aff249657787d47321a529e134f8f4845a20b1e5113a18ea"
+    },
+    {
+      "path": "nova.db-wal",
+      "size": 24752,
+      "sha256": "568e24d894fc26c132eff7cbf621479b683932a7b47b02e8c9a83648134dfb46"
+    },
+    {
+      "path": "nova.py",
+      "size": 58015,
+      "sha256": "3e28840ea602e2233fb986364924d58aec0e4decb6e442462e6b31d59d6f1222"
+    },
+    {
+      "path": "nova_ext\\__init__.py",
+      "size": 117,
+      "sha256": "719fa6ca362ea86d184b3da926e0137a09a592edac69b10e3206f42010bc356e"
+    },
+    {
+      "path": "nova_ext\\channels.py",
+      "size": 24863,
+      "sha256": "5b536f8101f99cdea5953c5fc12a75c5674bbf9f99e0c2b3f472a384e882cca6"
+    },
+    {
+      "path": "nova_ext\\core.py",
+      "size": 1033,
+      "sha256": "4ef1f006cc9728bfebc547f9828267c324aeee3577d66a98f2a7d4ab8b8dfb8e"
+    },
+    {
+      "path": "nova_ext\\roles.py",
+      "size": 55646,
+      "sha256": "7d87b00965234097beda28fd1008bd5206ae927e1389bfd034fcb50d0d064acb"
+    },
+    {
+      "path": "nova_ext\\tempvoice.py",
+      "size": 22355,
+      "sha256": "9d5c74f9b8cd9f35cee99bb27451236f17b955edf27dc5e06664d3182cc209d5"
+    },
+    {
+      "path": "nova_ext\\voice.py",
+      "size": 16375,
+      "sha256": "e1085d9976d39d94139c6692343e60939a593592542e32d97825cb4667a827e7"
+    },
+    {
+      "path": "nova_state.json",
+      "size": 31,
+      "sha256": "b65c8619c6479d66dde7bc355c3a10dbcda9577f6a26b0879f10c233e855c982"
+    },
+    {
+      "path": "priority.py",
+      "size": 671,
+      "sha256": "b49c39bdf1d8e95772472aea4864ca7c8740c03adf68f451d843cbf307a684c9"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 173,
+      "sha256": "9c6474bf429a87c3527d2979bf2828553ef8710a730d0ff29bda4454a54fead0"
+    },
+    {
+      "path": "scripts\\check_setup.py",
+      "size": 5815,
+      "sha256": "cc3855e95b84dea14243ba4fc0a1a0a84a77fbed2b9636b736a5838fccf45511"
+    },
+    {
+      "path": "scripts\\command_inventory.py",
+      "size": 4636,
+      "sha256": "fcc6f65bf5c44396589dfa4eb62fd201b1be58618f9dc1475dae693f3b048098"
+    },
+    {
+      "path": "scripts\\scan_secrets.py",
+      "size": 1775,
+      "sha256": "2bde2af773b9f87e6f482169c857b663d0976385c7d23c836c724b11b79e9418"
+    },
+    {
+      "path": "scripts\\sign_release.bat",
+      "size": 3997,
+      "sha256": "6d21e7dec8905a2c97b33c495bbd0f76c21f84f4cc833404f6520421e7975b6a"
+    },
+    {
+      "path": "scripts\\verify_inventory.py",
+      "size": 3253,
+      "sha256": "f1ce0a5a4c27f8279f05f63252a62c2a4cda9557df937511a67ed0b7b891120a"
+    },
+    {
+      "path": "setup.bat",
+      "size": 889,
+      "sha256": "3df4d4411c220aebbde3fb984ba62cf594b10c1cc218291a43e3f6b10abd7fa1"
+    },
+    {
+      "path": "start_atlas.bat",
+      "size": 599,
+      "sha256": "fc3c06ad73d1ec6755616446825ce421d2801c3aa312c9ca873a804f9b2a6757"
+    },
+    {
+      "path": "start_nova.bat",
+      "size": 366,
+      "sha256": "501bb90602e60126c2555d11f3e202535c0bc838120ad568f05c1402758d70b7"
+    },
+    {
+      "path": "tests\\conftest.py",
+      "size": 975,
+      "sha256": "3a71a0eaaa4256f7e4038532902ca5a34d48a23452dae181b53a8842bf3b6f4a"
+    },
+    {
+      "path": "tests\\test_config_toggles.py",
+      "size": 2031,
+      "sha256": "24e7539a8aff5fe7e8018f7ba73511a345d09514a9c233cdfa72adc1b075064c"
+    },
+    {
+      "path": "tests\\test_flows.py",
+      "size": 12149,
+      "sha256": "0b6e142af921efd1cbc1dee6a2ddd95c9b98bf7f3d4f9a18a233efbe04e76bc7"
+    },
+    {
+      "path": "tests\\test_logic.py",
+      "size": 11409,
+      "sha256": "5aa9e63d54c339315c550ea470a50160c24a101fec746c8858822b7a9a9290af"
+    },
+    {
+      "path": "tests\\test_stats.py",
+      "size": 2320,
+      "sha256": "1a6f74ce6735b8b703f35e0920164e38577b288805c6bc92f8fe66b5f14ec191"
+    },
+    {
+      "path": "tests\\test_tts_gate.py",
+      "size": 1279,
+      "sha256": "1b9e3e1e39478e3bc6a579427f10a3f94d287ce75002f98de97eac5faf914db4"
+    },
+    {
+      "path": "vibes.py",
+      "size": 22434,
+      "sha256": "d2c4d8477c44109271f42b4d9fb051dbccf4d3f9b7bcc2ae6a0cb13dc2d47d39"
+    }
+  ]
+}

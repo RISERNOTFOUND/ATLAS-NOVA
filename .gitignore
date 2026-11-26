@@ -1,0 +1,55 @@
+# secrets
+token.txt
+token2.txt
+.env
+*.pem
+
+# runtime data (per-server settings, user IDs, databases, logs) - never publish
+config.json
+void_data.json
+atlas_stats.json
+nova_state.json
+nova_tts.json
+nova_colours.json
+atlas.db*
+nova.db*
+backups/
+logs/
+ai_approvals/
+atlas.log
+
+# downloaded / generated
+ffmpeg/
+tts_cache/
+tts_models/
+nova_tts_cache/
+nova_voices/
+nova_libs/
+atlas_libs/
+.nova_no_members
+.no_presence
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+*.tmp
+.pytest_cache/
+
+# editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
+venv/
+
+# never commit keys
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*.key
+*.gpg
+*.asc
+allowed_signers

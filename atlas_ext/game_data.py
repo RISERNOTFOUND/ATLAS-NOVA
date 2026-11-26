@@ -1,0 +1,91 @@
+"""Static content for games (no LLM involved). Trivia tuples: (category, difficulty, question, correct, [wrong x3], explanation)."""
+
+TRIVIA = [
+    ("science", "easy", "What is the chemical symbol for water?", "H₂O", ["O₂", "CO₂", "HO₂"], "Two hydrogen atoms bonded to one oxygen atom."),
+    ("science", "easy", "Which planet is known as the Red Planet?", "Mars", ["Venus", "Jupiter", "Mercury"], "Iron oxide (rust) on its surface makes Mars look red."),
+    ("science", "easy", "What is the largest planet in our solar system?", "Jupiter", ["Saturn", "Neptune", "Earth"], "Jupiter is more than twice as massive as all the other planets combined."),
+    ("science", "medium", "What gas do plants absorb from the air for photosynthesis?", "Carbon dioxide", ["Oxygen", "Nitrogen", "Helium"], "Plants take in CO₂ and release oxygen."),
+    ("science", "medium", "How many bones are in the adult human body?", "206", ["186", "212", "245"], "Babies are born with around 300 bones; many fuse as they grow."),
+    ("science", "medium", "What is the hardest natural substance?", "Diamond", ["Quartz", "Iron", "Granite"], "Diamond tops the Mohs hardness scale at 10."),
+    ("science", "hard", "What particle has a positive electric charge?", "Proton", ["Electron", "Neutron", "Photon"], "Protons are positive, electrons negative, neutrons neutral."),
+    ("science", "hard", "What is the speed of light in a vacuum, approximately?", "300,000 km/s", ["30,000 km/s", "3,000 km/s", "3,000,000 km/s"], "About 299,792 km per second."),
+    ("geography", "easy", "What is the capital of Japan?", "Tokyo", ["Kyoto", "Osaka", "Seoul"], "Tokyo has been Japan's capital since 1868."),
+    ("geography", "easy", "Which is the largest ocean on Earth?", "Pacific Ocean", ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean"], "The Pacific covers about a third of Earth's surface."),
+    ("geography", "medium", "Which river flows through Cairo?", "Nile", ["Amazon", "Tigris", "Congo"], "The Nile runs north through Egypt to the Mediterranean."),
+    ("geography", "medium", "What is the capital of Australia?", "Canberra", ["Sydney", "Melbourne", "Perth"], "Canberra was purpose-built as a compromise between Sydney and Melbourne."),
+    ("geography", "medium", "Mount Everest lies on the border of Nepal and which other country?", "China", ["India", "Bhutan", "Pakistan"], "The border runs across its summit with the Tibet region of China."),
+    ("geography", "hard", "Which country has the most natural lakes?", "Canada", ["Russia", "Finland", "USA"], "Canada holds more lakes than the rest of the world combined."),
+    ("geography", "hard", "What is the smallest country in the world by area?", "Vatican City", ["Monaco", "San Marino", "Malta"], "Vatican City covers about 0.44 km²."),
+    ("history", "easy", "In which year did World War II end?", "1945", ["1939", "1950", "1918"], "It ended in 1945 with the surrender of Germany and then Japan."),
+    ("history", "medium", "Who was the first person to walk on the Moon?", "Neil Armstrong", ["Buzz Aldrin", "Yuri Gagarin", "Michael Collins"], "Apollo 11, July 1969."),
+    ("history", "medium", "Which ancient wonder stood in Alexandria?", "The Lighthouse", ["The Colossus", "The Hanging Gardens", "The Mausoleum"], "The Pharos lighthouse of Alexandria."),
+    ("history", "medium", "India became independent in which year?", "1947", ["1950", "1942", "1935"], "Independence Day is 15 August 1947."),
+    ("history", "hard", "Who wrote the Indian national anthem 'Jana Gana Mana'?", "Rabindranath Tagore", ["Bankim Chandra Chatterjee", "Sarojini Naidu", "Muhammad Iqbal"], "Tagore also wrote Bangladesh's anthem."),
+    ("history", "hard", "The Berlin Wall fell in which year?", "1989", ["1991", "1985", "1979"], "It fell on 9 November 1989."),
+    ("music", "easy", "How many strings does a standard guitar have?", "6", ["4", "5", "7"], "Standard tuning is E A D G B E."),
+    ("music", "easy", "How many keys are on a standard piano?", "88", ["76", "61", "92"], "52 white keys and 36 black keys."),
+    ("music", "medium", "What does 'BPM' stand for in music?", "Beats per minute", ["Bars per measure", "Bass pitch modulation", "Beats per measure"], "It measures tempo."),
+    ("music", "medium", "Which instrument has a slide instead of valves?", "Trombone", ["Trumpet", "Tuba", "French horn"], "The slide changes the length of the tubing."),
+    ("music", "medium", "How many lines does a musical staff have?", "5", ["4", "6", "7"], "Notes sit on or between the five lines."),
+    ("music", "hard", "What is the Italian term for gradually getting louder?", "Crescendo", ["Diminuendo", "Staccato", "Legato"], "Diminuendo is the opposite."),
+    ("music", "hard", "A 'tabla' is a traditional instrument from which region?", "Indian subcontinent", ["West Africa", "Japan", "Andes"], "A pair of hand drums central to Hindustani music."),
+    ("gaming", "easy", "In Minecraft, what material do you need to make a Nether portal frame?", "Obsidian", ["Cobblestone", "Bedrock", "Netherrack"], "A frame of obsidian, lit with fire."),
+    ("gaming", "easy", "What colour is the 'ghost' Blinky in Pac-Man?", "Red", ["Pink", "Cyan", "Orange"], "Blinky is red; Pinky pink, Inky cyan, Clyde orange."),
+    ("gaming", "medium", "Which company makes the PlayStation?", "Sony", ["Nintendo", "Microsoft", "Sega"], "The first PlayStation launched in 1994."),
+    ("gaming", "medium", "In chess, which piece can only move diagonally?", "Bishop", ["Rook", "Knight", "King"], "Each bishop stays on its starting colour."),
+    ("gaming", "medium", "What is the maximum number of players in a standard 'Among Us' lobby?", "15", ["10", "12", "8"], "Lobbies were raised from 10 to 15 players in 2021."),
+    ("gaming", "hard", "Tetris was created in which country?", "Soviet Union", ["Japan", "USA", "Finland"], "Alexey Pajitnov created it in Moscow in 1984."),
+    ("general", "easy", "How many days are in a leap year?", "366", ["365", "364", "367"], "February gets a 29th day."),
+    ("general", "easy", "What do bees make?", "Honey", ["Silk", "Wax paper", "Milk"], "They make honey from flower nectar (and wax too)."),
+    ("general", "easy", "How many continents are there?", "7", ["5", "6", "8"], "Africa, Antarctica, Asia, Australia/Oceania, Europe, North America, South America."),
+    ("general", "medium", "Which is the longest-running animated TV series in the US?", "The Simpsons", ["Family Guy", "South Park", "SpongeBob SquarePants"], "It premiered as a series in 1989."),
+    ("general", "medium", "What is the main ingredient in guacamole?", "Avocado", ["Tomato", "Lime", "Pepper"], "Mashed avocado, usually with lime, onion and chilli."),
+    ("general", "medium", "How many sides does a hexagon have?", "6", ["5", "7", "8"], "Hex = six."),
+    ("general", "hard", "What is the only letter that doesn't appear in any US state name?", "Q", ["X", "Z", "J"], "Every other letter appears at least once."),
+    ("general", "hard", "Which language has the most native speakers?", "Mandarin Chinese", ["English", "Spanish", "Hindi"], "English has more total speakers, but Mandarin has the most native ones."),
+    ("general", "hard", "In which year was the first iPhone released?", "2007", ["2005", "2008", "2010"], "Announced in January, released in June 2007."),
+]
+
+RIDDLES = [
+    ("What has keys but can't open locks?", "A piano (or a keyboard)."),
+    ("What gets wetter the more it dries?", "A towel."),
+    ("What has hands but can't clap?", "A clock."),
+    ("I speak without a mouth and hear without ears. What am I?", "An echo."),
+    ("What can travel around the world while staying in a corner?", "A stamp."),
+    ("The more of me you take, the more you leave behind. What am I?", "Footsteps."),
+    ("What has a neck but no head?", "A bottle."),
+    ("What comes once in a minute, twice in a moment, but never in a thousand years?", "The letter M."),
+    ("What belongs to you, but others use it more than you do?", "Your name."),
+    ("What can you catch but not throw?", "A cold."),
+    ("What has many teeth but can't bite?", "A comb."),
+    ("What runs but never walks, has a mouth but never talks?", "A river."),
+    ("What is full of holes but still holds water?", "A sponge."),
+    ("What goes up but never comes down?", "Your age."),
+    ("If you drop me I'm sure to crack, but give me a smile and I'll always smile back. What am I?", "A mirror."),
+]
+
+EMOJI_PUZZLES = [
+    ("🦁👑", "the lion king"), ("❄️👸", "frozen"), ("🕷️🧑", "spiderman"), ("🧙‍♂️💍", "lord of the rings"), ("🚢🧊💔", "titanic"),
+    ("🦖🏞️", "jurassic park"), ("👻🚫", "ghostbusters"), ("🐠🔍", "finding nemo"), ("⭐⚔️", "star wars"), ("🧸📖", "toy story"),
+    ("🍫🏭", "charlie and the chocolate factory"), ("🦇🧑", "batman"), ("🐝🎬", "bee movie"), ("🏴‍☠️🌊", "pirates of the caribbean"),
+    ("🌧️☂️", "rainy day"), ("🍎🥧", "apple pie"), ("⏰🦺", "safety first"), ("🌍🔥", "global warming"), ("🔥🦊", "firefox"), ("🌕🚶", "moonwalk"),
+]
+
+WORDS = ["guitar", "melody", "rhythm", "harmony", "speaker", "keyboard", "microphone", "concert", "festival", "playlist", "album", "studio",
+         "galaxy", "planet", "rocket", "volcano", "island", "jungle", "desert", "glacier", "thunder", "rainbow", "lantern", "compass",
+         "pizza", "burger", "noodles", "mango", "pancake", "biscuit", "dragon", "castle", "wizard", "knight", "puzzle", "camera",
+         "bicycle", "airport", "library", "picnic", "sunflower", "penguin", "giraffe", "dolphin", "butterfly", "chocolate", "cricket", "football"]
+
+FUN_FACTS = [
+    "Octopuses have three hearts and blue blood.", "Honey never spoils — edible honey has been found in ancient Egyptian tombs.",
+    "Bananas are berries, but strawberries aren't.", "A day on Venus is longer than its year.", "Sharks existed before trees.",
+    "The Eiffel Tower can be about 15 cm taller in summer because metal expands in heat.", "Wombat poop is cube-shaped.",
+    "There are more possible chess games than atoms in the observable universe.", "Sloths can hold their breath longer than dolphins can.",
+    "A group of flamingos is called a 'flamboyance'.", "Cows have best friends and get stressed when separated.",
+    "Your brain uses about 20% of your body's energy.", "Hot water can freeze faster than cold water under some conditions (the Mpemba effect).",
+    "The shortest war in history lasted about 38 minutes (Anglo-Zanzibar War, 1896).", "Sea otters hold hands while they sleep so they don't drift apart.",
+    "The first song played on Mars was 'Reach for the Stars' by will.i.am (2012).", "Butterflies taste with their feet.",
+    "A bolt of lightning is about five times hotter than the surface of the Sun.", "Some cats are allergic to humans.",
+]
+
+MEMORY_EMOJIS = ["🍎", "🍌", "🍇", "🍒", "🍉", "🥝", "🍋", "🫐"]

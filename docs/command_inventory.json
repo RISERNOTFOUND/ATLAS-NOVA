@@ -1,0 +1,4425 @@
+[
+ {
+  "file": "bot.py",
+  "line": 501,
+  "kind": "prefix",
+  "name": "dmforwardtest",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "dm_forward_test",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1060,
+  "kind": "prefix",
+  "name": "welcomechannel",
+  "aliases": [],
+  "desc": "",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(manage_guild=True)"
+  ],
+  "fn": "welcome_channel",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1078,
+  "kind": "prefix",
+  "name": "welcometest",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(manage_guild=True)"
+  ],
+  "fn": "welcome_test",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1100,
+  "kind": "prefix",
+  "name": "welcome_missing",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(administrator=True)"
+  ],
+  "fn": "welcome_missing",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1175,
+  "kind": "prefix",
+  "name": "rewelcome",
+  "aliases": [],
+  "desc": "Replace ATLAS's prior welcome posts and welcome every current account again.",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(administrator=True)"
+  ],
+  "fn": "rewelcome",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1339,
+  "kind": "prefix",
+  "name": "selfrole",
+  "aliases": [
+   "selfroleset"
+  ],
+  "desc": "",
+  "sig": "[action] [role_text]",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(manage_roles=True)"
+  ],
+  "fn": "self_role_config",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1377,
+  "kind": "prefix",
+  "name": "roles",
+  "aliases": [
+   "selfroles"
+  ],
+  "desc": "",
+  "sig": "[action] [role_text]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "self_roles",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1598,
+  "kind": "prefix",
+  "name": "aion",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "ai_on",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1608,
+  "kind": "prefix",
+  "name": "aioff",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "ai_off",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1619,
+  "kind": "prefix",
+  "name": "ai",
+  "aliases": [],
+  "desc": "",
+  "sig": "<prompt>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "ai_ask",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1690,
+  "kind": "prefix",
+  "name": "aidm",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member> <text>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "ai_dm",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 1704,
+  "kind": "prefix",
+  "name": "aisay",
+  "aliases": [],
+  "desc": "",
+  "sig": "<text>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "ai_say",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2033,
+  "kind": "prefix",
+  "name": "rebuild",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "rebuild_server",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2063,
+  "kind": "prefix",
+  "name": "clearchannel",
+  "aliases": [
+   "clearhistory"
+  ],
+  "desc": "",
+  "sig": "<channel>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "clear_channel_history",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2086,
+  "kind": "prefix+slash",
+  "name": "vibe",
+  "aliases": [],
+  "desc": "Get a vibe prompt",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "vibe",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2094,
+  "kind": "prefix+slash",
+  "name": "wyr",
+  "aliases": [
+   "wouldyourather"
+  ],
+  "desc": "Play a round of would-you-rather",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "would_you_rather",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2103,
+  "kind": "prefix+slash",
+  "name": "compliment",
+  "aliases": [],
+  "desc": "Send a compliment to a member or yourself",
+  "sig": "[member]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "compliment",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2114,
+  "kind": "prefix+slash",
+  "name": "shoutout",
+  "aliases": [],
+  "desc": "Give a community shoutout to a member",
+  "sig": "<member> [reason]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "shoutout",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2122,
+  "kind": "prefix",
+  "name": "birthday",
+  "aliases": [],
+  "desc": "",
+  "sig": "<date_text>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "birthday",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2144,
+  "kind": "prefix",
+  "name": "vibechannel",
+  "aliases": [],
+  "desc": "",
+  "sig": "<channel>",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(manage_guild=True)"
+  ],
+  "fn": "vibe_channel",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2153,
+  "kind": "prefix",
+  "name": "birthdaychannel",
+  "aliases": [],
+  "desc": "",
+  "sig": "<channel>",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(manage_guild=True)"
+  ],
+  "fn": "birthday_channel",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2162,
+  "kind": "prefix+slash",
+  "name": "afk",
+  "aliases": [],
+  "desc": "Set an AFK status message",
+  "sig": "[reason]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "afk",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2171,
+  "kind": "prefix+slash",
+  "name": "help",
+  "aliases": [
+   "commands",
+   "h"
+  ],
+  "desc": "Show ATLAS's command guide",
+  "sig": "[category]",
+  "perm": [],
+  "fn": "help_command",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2215,
+  "kind": "prefix",
+  "name": "postrules",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "post_rules",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2234,
+  "kind": "prefix",
+  "name": "visibility",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "visibility",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2252,
+  "kind": "prefix",
+  "name": "ttschannel",
+  "aliases": [],
+  "desc": "",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(manage_guild=True)"
+  ],
+  "fn": "tts_channel",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2263,
+  "kind": "prefix",
+  "name": "ttsdisable",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "has_guild_permissions(manage_guild=True)"
+  ],
+  "fn": "tts_disable",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2272,
+  "kind": "prefix",
+  "name": "join",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "bot_has_guild_permissions(connect=True, speak=True)"
+  ],
+  "fn": "tts_join",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2295,
+  "kind": "prefix",
+  "name": "leave",
+  "aliases": [
+   "disconnect"
+  ],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "tts_leave",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2307,
+  "kind": "prefix+slash",
+  "name": "joke",
+  "aliases": [],
+  "desc": "Hear a joke from ATLAS",
+  "sig": "",
+  "perm": [],
+  "fn": "joke",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2313,
+  "kind": "prefix+slash",
+  "name": "roast",
+  "aliases": [
+   "roastme"
+  ],
+  "desc": "Playfully roast a member or yourself",
+  "sig": "[member]",
+  "perm": [],
+  "fn": "roast",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2322,
+  "kind": "prefix+slash",
+  "name": "love",
+  "aliases": [
+   "crush",
+   "compatibility"
+  ],
+  "desc": "Check compatibility with another member",
+  "sig": "[member]",
+  "perm": [],
+  "fn": "love",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2329,
+  "kind": "prefix+slash",
+  "name": "hug",
+  "aliases": [],
+  "desc": "Send a friendly hug to someone",
+  "sig": "<member>",
+  "perm": [],
+  "fn": "hug",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2335,
+  "kind": "prefix+slash",
+  "name": "highfive",
+  "aliases": [],
+  "desc": "Give a high five to someone",
+  "sig": "<member>",
+  "perm": [],
+  "fn": "highfive",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2342,
+  "kind": "prefix+slash",
+  "name": "coinflip",
+  "aliases": [
+   "cf"
+  ],
+  "desc": "Flip a coin",
+  "sig": "[side]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "coinflip",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2355,
+  "kind": "prefix+slash",
+  "name": "8ball",
+  "aliases": [
+   "ask"
+  ],
+  "desc": "Ask the magic 8-ball a question",
+  "sig": "<question>",
+  "perm": [],
+  "fn": "eightball",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2360,
+  "kind": "prefix+slash",
+  "name": "roll",
+  "aliases": [],
+  "desc": "Roll a die",
+  "sig": "[sides]",
+  "perm": [],
+  "fn": "roll",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2367,
+  "kind": "prefix+slash",
+  "name": "rps",
+  "aliases": [],
+  "desc": "Play rock, paper, scissors",
+  "sig": "<choice>",
+  "perm": [],
+  "fn": "rps",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2378,
+  "kind": "prefix",
+  "name": "warn",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member> [reason]",
+  "perm": [
+   "guild_only()",
+   "staff_only()"
+  ],
+  "fn": "warn",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2390,
+  "kind": "prefix",
+  "name": "warnings",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member>",
+  "perm": [
+   "guild_only()",
+   "staff_only()"
+  ],
+  "fn": "warnings",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2400,
+  "kind": "prefix",
+  "name": "clearwarnings",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member>",
+  "perm": [
+   "guild_only()",
+   "staff_only()"
+  ],
+  "fn": "clearwarnings",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2409,
+  "kind": "prefix",
+  "name": "kick",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member> [reason]",
+  "perm": [
+   "guild_only()",
+   "configured_owner_only()"
+  ],
+  "fn": "kick",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2419,
+  "kind": "prefix",
+  "name": "ban",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member> [reason]",
+  "perm": [
+   "guild_only()",
+   "configured_owner_only()"
+  ],
+  "fn": "ban",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2429,
+  "kind": "prefix",
+  "name": "unban",
+  "aliases": [],
+  "desc": "",
+  "sig": "<user_id>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "unban",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2448,
+  "kind": "prefix",
+  "name": "timeout",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member> <duration> [reason]",
+  "perm": [
+   "guild_only()",
+   "staff_only()",
+   "bot_has_guild_permissions(moderate_members=True)"
+  ],
+  "fn": "timeout",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2461,
+  "kind": "prefix",
+  "name": "untimeout",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member> [reason]",
+  "perm": [
+   "guild_only()",
+   "staff_only()",
+   "bot_has_guild_permissions(moderate_members=True)"
+  ],
+  "fn": "untimeout",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2474,
+  "kind": "prefix",
+  "name": "purge",
+  "aliases": [],
+  "desc": "",
+  "sig": "<count>",
+  "perm": [
+   "guild_only()",
+   "staff_permission('manage_messages')"
+  ],
+  "fn": "purge",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2483,
+  "kind": "prefix",
+  "name": "slowmode",
+  "aliases": [],
+  "desc": "",
+  "sig": "<seconds>",
+  "perm": [
+   "guild_only()",
+   "staff_permission('manage_channels')"
+  ],
+  "fn": "slowmode",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2493,
+  "kind": "prefix",
+  "name": "report",
+  "aliases": [
+   "bullyreport"
+  ],
+  "desc": "Any member may report; ATLAS applies and records the report timeout.",
+  "sig": "<member> [details]",
+  "perm": [
+   "guild_only()",
+   "bot_has_guild_permissions(moderate_members=True)"
+  ],
+  "fn": "bullyreport",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2590,
+  "kind": "prefix",
+  "name": "forgive",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member> [reason]",
+  "perm": [
+   "guild_only()",
+   "staff_only()",
+   "bot_has_guild_permissions(moderate_members=True)"
+  ],
+  "fn": "forgive",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2604,
+  "kind": "prefix",
+  "name": "voicemute",
+  "aliases": [
+   "vmute",
+   "servermute"
+  ],
+  "desc": "",
+  "sig": "<member>",
+  "perm": [
+   "guild_only()",
+   "bot_has_guild_permissions(mute_members=True)"
+  ],
+  "fn": "voicemute",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2615,
+  "kind": "prefix",
+  "name": "voiceunmute",
+  "aliases": [
+   "vunmute",
+   "serverunmute"
+  ],
+  "desc": "",
+  "sig": "<member>",
+  "perm": [
+   "guild_only()",
+   "bot_has_guild_permissions(mute_members=True)"
+  ],
+  "fn": "voiceunmute",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2625,
+  "kind": "prefix",
+  "name": "prefix",
+  "aliases": [],
+  "desc": "",
+  "sig": "<new_prefix>",
+  "perm": [
+   "guild_only()",
+   "staff_only()"
+  ],
+  "fn": "prefix",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2635,
+  "kind": "prefix",
+  "name": "resetprefix",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "staff_only()"
+  ],
+  "fn": "resetprefix",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2642,
+  "kind": "prefix+slash",
+  "name": "ping",
+  "aliases": [],
+  "desc": "Check ATLAS's Discord latency",
+  "sig": "",
+  "perm": [],
+  "fn": "ping",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2647,
+  "kind": "prefix+slash",
+  "name": "choose",
+  "aliases": [],
+  "desc": "Randomly choose between options separated by |",
+  "sig": "<options>",
+  "perm": [],
+  "fn": "choose",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2655,
+  "kind": "prefix+slash",
+  "name": "poll",
+  "aliases": [],
+  "desc": "Create a simple yes/no reaction poll",
+  "sig": "<question>",
+  "perm": [],
+  "fn": "poll",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2662,
+  "kind": "prefix",
+  "name": "okay",
+  "aliases": [],
+  "desc": "",
+  "sig": "[phrase]",
+  "perm": [],
+  "fn": "shutdown",
+  "group": false
+ },
+ {
+  "file": "bot.py",
+  "line": 2718,
+  "kind": "prefix",
+  "name": "vibenow",
+  "aliases": [],
+  "desc": "Post a vibe right now (handy for testing NOVA's reply).",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "vibenow",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 366,
+  "kind": "prefix",
+  "name": "config_cmd",
+  "aliases": [],
+  "desc": "Open the settings panel (Manage Server).",
+  "sig": "[module]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "config_cmd",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 374,
+  "kind": "slash",
+  "name": "config",
+  "aliases": [],
+  "desc": "Open the settings panel for this bot",
+  "sig": "[module]",
+  "perm": [
+   "app_guild_only()",
+   "app_default_permissions(manage_guild=True)"
+  ],
+  "fn": "config_slash",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 385,
+  "kind": "prefix",
+  "name": "diag_cmd",
+  "aliases": [],
+  "desc": "Bot diagnostics: `diag`, `diag errors`, `diag perms`, `diag config` (Manage Server).",
+  "sig": "[section]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "diag_cmd",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 393,
+  "kind": "slash",
+  "name": "diag",
+  "aliases": [],
+  "desc": "Bot diagnostics (admins)",
+  "sig": "[section]",
+  "perm": [
+   "app_guild_only()",
+   "app_default_permissions(manage_guild=True)"
+  ],
+  "fn": "diag_slash",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 398,
+  "kind": "prefix",
+  "name": "timezone_cmd",
+  "aliases": [],
+  "desc": "Set your timezone for reminders and events.",
+  "sig": "[zone]",
+  "perm": [],
+  "fn": "timezone_cmd",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 403,
+  "kind": "slash",
+  "name": "timezone",
+  "aliases": [],
+  "desc": "Set your timezone for reminders and events",
+  "sig": "[zone]",
+  "perm": [],
+  "fn": "timezone_slash",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 407,
+  "kind": "prefix",
+  "name": "prefs_cmd",
+  "aliases": [],
+  "desc": "Your personal notification preferences and opt-outs.",
+  "sig": "",
+  "perm": [],
+  "fn": "prefs_cmd",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 412,
+  "kind": "slash",
+  "name": "prefs",
+  "aliases": [],
+  "desc": "Your personal notification preferences and opt-outs",
+  "sig": "",
+  "perm": [],
+  "fn": "prefs_slash",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 418,
+  "kind": "prefix",
+  "name": "config_export",
+  "aliases": [],
+  "desc": "Export this server's bot configuration as a JSON file (no tokens or secrets).",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "config_export",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 431,
+  "kind": "prefix",
+  "name": "config_import",
+  "aliases": [],
+  "desc": "Import a configuration export (attach the .json). Shows a preview and needs confirmation.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "config_import",
+  "group": false
+ },
+ {
+  "file": "common/diag.py",
+  "line": 457,
+  "kind": "prefix",
+  "name": "config_backups",
+  "aliases": [],
+  "desc": "List configuration backup history, or restore one by ID (with confirmation).",
+  "sig": "[restore_id]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "config_backups",
+  "group": false
+ },
+ {
+  "file": "atlas_stats.py",
+  "line": 398,
+  "kind": "prefix",
+  "name": "kavstat",
+  "aliases": [
+   "atlas_stats"
+  ],
+  "desc": "Personal activity report with graph.",
+  "sig": "[member] [period]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "kavstat",
+  "group": false
+ },
+ {
+  "file": "atlas_stats.py",
+  "line": 420,
+  "kind": "prefix",
+  "name": "kavstatall",
+  "aliases": [
+   "kavboard",
+   "kavlb"
+  ],
+  "desc": "Server leaderboard overview.",
+  "sig": "[period]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "kavstatall",
+  "group": false
+ },
+ {
+  "file": "atlas_stats.py",
+  "line": 426,
+  "kind": "prefix",
+  "name": "kavstatvc",
+  "aliases": [],
+  "desc": "",
+  "sig": "[period]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "kavstatvc",
+  "group": false
+ },
+ {
+  "file": "atlas_stats.py",
+  "line": 431,
+  "kind": "prefix",
+  "name": "kavstatmsg",
+  "aliases": [],
+  "desc": "",
+  "sig": "[period]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "kavstatmsg",
+  "group": false
+ },
+ {
+  "file": "atlas_stats.py",
+  "line": 436,
+  "kind": "prefix",
+  "name": "kavstatchannels",
+  "aliases": [],
+  "desc": "",
+  "sig": "[period]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "kavstatchannels",
+  "group": false
+ },
+ {
+  "file": "atlas_stats.py",
+  "line": 441,
+  "kind": "prefix",
+  "name": "kavstatgames",
+  "aliases": [],
+  "desc": "",
+  "sig": "[period]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "kavstatgames",
+  "group": false
+ },
+ {
+  "file": "atlas_stats.py",
+  "line": 446,
+  "kind": "prefix",
+  "name": "kavstatbackfill",
+  "aliases": [],
+  "desc": "Import the last 30 days of messages from before tracking started (Manage Server).",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "kavstatbackfill",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 166,
+  "kind": "prefix",
+  "name": "announce",
+  "aliases": [
+   "announcement"
+  ],
+  "desc": "Scheduled announcements. Subcommands: add, list, remove, toggle, test, post.",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "announce",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 175,
+  "kind": "sub-command",
+  "name": "announce add",
+  "aliases": [],
+  "desc": "",
+  "sig": "<channel> <spec>",
+  "perm": [],
+  "fn": "add",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 215,
+  "kind": "sub-command",
+  "name": "announce list",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "list_",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 220,
+  "kind": "sub-command",
+  "name": "announce remove",
+  "aliases": [
+   "delete"
+  ],
+  "desc": "",
+  "sig": "<aid>",
+  "perm": [],
+  "fn": "remove",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 225,
+  "kind": "sub-command",
+  "name": "announce toggle",
+  "aliases": [],
+  "desc": "",
+  "sig": "<aid>",
+  "perm": [],
+  "fn": "toggle",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 238,
+  "kind": "sub-command",
+  "name": "announce test",
+  "aliases": [],
+  "desc": "",
+  "sig": "<aid>",
+  "perm": [],
+  "fn": "test",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 246,
+  "kind": "sub-command",
+  "name": "announce post",
+  "aliases": [],
+  "desc": "Post a formatted announcement now: `!announce post #ch Title | body [--ping @role]`",
+  "sig": "<channel> <text>",
+  "perm": [],
+  "fn": "post_now",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 342,
+  "kind": "prefix",
+  "name": "feeds",
+  "aliases": [
+   "feed"
+  ],
+  "desc": "Creator feeds: add youtube/rss/twitch, list, remove, health.",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "feeds",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 353,
+  "kind": "sub-command",
+  "name": "feeds add",
+  "aliases": [],
+  "desc": "",
+  "sig": "<kind> <channel> <source> [label]",
+  "perm": [],
+  "fn": "feeds_add",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 383,
+  "kind": "sub-command",
+  "name": "feeds remove",
+  "aliases": [],
+  "desc": "",
+  "sig": "<fid>",
+  "perm": [],
+  "fn": "feeds_remove",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 388,
+  "kind": "sub-command",
+  "name": "feeds ping",
+  "aliases": [],
+  "desc": "",
+  "sig": "<fid> [role]",
+  "perm": [],
+  "fn": "feeds_ping",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 393,
+  "kind": "sub-command",
+  "name": "feeds template",
+  "aliases": [],
+  "desc": "",
+  "sig": "<fid> [template]",
+  "perm": [],
+  "fn": "feeds_template",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/announce.py",
+  "line": 398,
+  "kind": "sub-command",
+  "name": "feeds health",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "feeds_health",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/automod.py",
+  "line": 155,
+  "kind": "prefix",
+  "name": "automod",
+  "aliases": [],
+  "desc": "Automod settings (opens the config panel).",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "automod",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/automod.py",
+  "line": 161,
+  "kind": "sub-group",
+  "name": "automod words",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "words_group",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/automod.py",
+  "line": 170,
+  "kind": "sub-command",
+  "name": "automod words add",
+  "aliases": [],
+  "desc": "Add comma-separated words/phrases.",
+  "sig": "<words>",
+  "perm": [],
+  "fn": "words_add",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/automod.py",
+  "line": 186,
+  "kind": "sub-command",
+  "name": "automod words remove",
+  "aliases": [],
+  "desc": "",
+  "sig": "<words>",
+  "perm": [],
+  "fn": "words_remove",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/automod.py",
+  "line": 193,
+  "kind": "sub-command",
+  "name": "automod test",
+  "aliases": [],
+  "desc": "Show which rule (if any) a sample message would trigger. Nothing is deleted.",
+  "sig": "<text>",
+  "perm": [],
+  "fn": "test",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/embeds.py",
+  "line": 181,
+  "kind": "prefix",
+  "name": "embed",
+  "aliases": [
+   "embedbuilder"
+  ],
+  "desc": "Open the embed builder (Manage Server).",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "embed",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/embeds.py",
+  "line": 189,
+  "kind": "prefix",
+  "name": "embededit",
+  "aliases": [],
+  "desc": "Edit an embed ATLAS posted earlier (give its message link).",
+  "sig": "<link>",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "embededit",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 190,
+  "kind": "prefix",
+  "name": "question",
+  "aliases": [
+   "qotd",
+   "randomquestion"
+  ],
+  "desc": "A random conversation question.",
+  "sig": "",
+  "perm": [],
+  "fn": "question",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 196,
+  "kind": "prefix",
+  "name": "topic",
+  "aliases": [
+   "starter"
+  ],
+  "desc": "A conversation starter.",
+  "sig": "",
+  "perm": [],
+  "fn": "topic",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 203,
+  "kind": "prefix",
+  "name": "questionadd",
+  "aliases": [],
+  "desc": "Add a custom daily question.",
+  "sig": "<text>",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "questionadd",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 211,
+  "kind": "prefix",
+  "name": "recognize",
+  "aliases": [
+   "recognise",
+   "kudos"
+  ],
+  "desc": "Publicly recognise a member for something great.",
+  "sig": "<member> <reason>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "recognize",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 228,
+  "kind": "prefix",
+  "name": "feature",
+  "aliases": [],
+  "desc": "Feature a message in the highlights channel (staff). Use the message link.",
+  "sig": "<link>",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "feature",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 250,
+  "kind": "prefix",
+  "name": "highlights",
+  "aliases": [],
+  "desc": "Recently featured messages and recognitions.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "highlights_cmd",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 261,
+  "kind": "prefix",
+  "name": "challenge",
+  "aliases": [],
+  "desc": "Community challenge: view, join. Staff: set, end.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "challenge",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 275,
+  "kind": "sub-command",
+  "name": "challenge set",
+  "aliases": [],
+  "desc": "",
+  "sig": "<spec>",
+  "perm": [
+   "checks.mod_only()"
+  ],
+  "fn": "challenge_set",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 285,
+  "kind": "sub-command",
+  "name": "challenge join",
+  "aliases": [
+   "done",
+   "submit"
+  ],
+  "desc": "",
+  "sig": "[note]",
+  "perm": [],
+  "fn": "challenge_join",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/engagement.py",
+  "line": 295,
+  "kind": "sub-command",
+  "name": "challenge end",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "checks.mod_only()"
+  ],
+  "fn": "challenge_end",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 196,
+  "kind": "prefix",
+  "name": "event",
+  "aliases": [
+   "events"
+  ],
+  "desc": "Events: create, list, past, info, edit, cancel, stats.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "event",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 201,
+  "kind": "sub-command",
+  "name": "event create",
+  "aliases": [
+   "new"
+  ],
+  "desc": "`!event create Title | when | description` — when: `2026-12-31 20:00`, `tomorrow 7pm`, `in 3h`.",
+  "sig": "<spec>",
+  "perm": [],
+  "fn": "create_cmd",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 211,
+  "kind": "slash",
+  "name": "eventcreate",
+  "aliases": [],
+  "desc": "Create a community event with RSVP buttons",
+  "sig": "<title> <when> [description] [channel]",
+  "perm": [
+   "app_guild_only()"
+  ],
+  "fn": "eventcreate",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 215,
+  "kind": "sub-command",
+  "name": "event list",
+  "aliases": [
+   "upcoming"
+  ],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "upcoming",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 221,
+  "kind": "sub-command",
+  "name": "event past",
+  "aliases": [
+   "history"
+  ],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "past",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 227,
+  "kind": "sub-command",
+  "name": "event info",
+  "aliases": [],
+  "desc": "",
+  "sig": "<event_id>",
+  "perm": [],
+  "fn": "info",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 235,
+  "kind": "sub-command",
+  "name": "event edit",
+  "aliases": [],
+  "desc": "`!event edit <id> title|when|description <value>`",
+  "sig": "<event_id> <field> <value>",
+  "perm": [],
+  "fn": "edit",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 260,
+  "kind": "sub-command",
+  "name": "event cancel",
+  "aliases": [],
+  "desc": "",
+  "sig": "<event_id> [reason]",
+  "perm": [],
+  "fn": "cancel",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/events.py",
+  "line": 278,
+  "kind": "sub-command",
+  "name": "event stats",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "stats",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 202,
+  "kind": "prefix",
+  "name": "suggest",
+  "aliases": [],
+  "desc": "Post a suggestion. `!suggest anon <idea>` hides your name. Optional `[category]` at the start.",
+  "sig": "<text>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "suggest",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 223,
+  "kind": "slash",
+  "name": "suggest",
+  "aliases": [],
+  "desc": "Post a suggestion for the server",
+  "sig": "<idea> [anonymous] [category]",
+  "perm": [
+   "app_guild_only()"
+  ],
+  "fn": "suggest_slash",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 229,
+  "kind": "prefix",
+  "name": "featurerequest",
+  "aliases": [
+   "fr"
+  ],
+  "desc": "Request a feature (posted as a suggestion in the 'feature' category).",
+  "sig": "<idea>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "featurerequest",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 236,
+  "kind": "prefix",
+  "name": "bugreport",
+  "aliases": [
+   "reportproblem"
+  ],
+  "desc": "Report a problem with the server or bots to staff.",
+  "sig": "<problem>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "bugreport",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 268,
+  "kind": "prefix",
+  "name": "suggestion",
+  "aliases": [],
+  "desc": "Show a suggestion. Staff: approve/reject/implement/consider/duplicate <number> [response].",
+  "sig": "[number]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "suggestion",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 276,
+  "kind": "sub-command",
+  "name": "suggestion approve",
+  "aliases": [],
+  "desc": "",
+  "sig": "<number> [response]",
+  "perm": [],
+  "fn": "s_approve",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 280,
+  "kind": "sub-command",
+  "name": "suggestion reject",
+  "aliases": [],
+  "desc": "",
+  "sig": "<number> [response]",
+  "perm": [],
+  "fn": "s_reject",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 284,
+  "kind": "sub-command",
+  "name": "suggestion implement",
+  "aliases": [],
+  "desc": "",
+  "sig": "<number> [response]",
+  "perm": [],
+  "fn": "s_implement",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 288,
+  "kind": "sub-command",
+  "name": "suggestion consider",
+  "aliases": [],
+  "desc": "",
+  "sig": "<number> [response]",
+  "perm": [],
+  "fn": "s_consider",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 292,
+  "kind": "sub-command",
+  "name": "suggestion duplicate",
+  "aliases": [],
+  "desc": "",
+  "sig": "<number> [response]",
+  "perm": [],
+  "fn": "s_duplicate",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 297,
+  "kind": "prefix",
+  "name": "suggestions",
+  "aliases": [],
+  "desc": "Browse suggestions by status (open, approved, rejected, implemented, considering, all).",
+  "sig": "[status]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "suggestions",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 312,
+  "kind": "prefix",
+  "name": "suggestionstats",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "suggestionstats",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 337,
+  "kind": "slash",
+  "name": "modreport",
+  "aliases": [],
+  "desc": "Privately report a member or problem to staff",
+  "sig": "<reason> [member]",
+  "perm": [
+   "app_guild_only()"
+  ],
+  "fn": "modreport",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 345,
+  "kind": "prefix",
+  "name": "myreports",
+  "aliases": [],
+  "desc": "Status of reports you've filed here.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "myreports",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 488,
+  "kind": "prefix",
+  "name": "ttt",
+  "aliases": [
+   "tictactoe"
+  ],
+  "desc": "Tic-tac-toe against another member.",
+  "sig": "<opponent>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "ttt",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 502,
+  "kind": "prefix",
+  "name": "c4",
+  "aliases": [
+   "connect4",
+   "connectfour"
+  ],
+  "desc": "Connect Four against another member.",
+  "sig": "<opponent>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "c4",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 516,
+  "kind": "prefix",
+  "name": "rpsduel",
+  "aliases": [
+   "rpsvs"
+  ],
+  "desc": "Rock-paper-scissors against another member (picks stay secret).",
+  "sig": "<opponent>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "rpsduel",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 528,
+  "kind": "prefix",
+  "name": "trivia",
+  "aliases": [],
+  "desc": "Multiple-choice trivia. `!trivia [science|geography|history|music|gaming|general] [easy|medium|hard]`",
+  "sig": "[category] [difficulty]",
+  "perm": [],
+  "fn": "trivia",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 559,
+  "kind": "prefix",
+  "name": "triviateam",
+  "aliases": [
+   "triviaparty",
+   "quiz"
+  ],
+  "desc": "Channel trivia for everyone. `!triviateam 5` (free-for-all) or `!triviateam 5 Red, Blue` (team mode with a lobby).",
+  "sig": "[rounds] [teams]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "triviateam",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 612,
+  "kind": "prefix",
+  "name": "dailyquiz",
+  "aliases": [],
+  "desc": "Today's 5-question quiz — same questions for everyone, one attempt per day.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "dailyquiz",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 645,
+  "kind": "prefix",
+  "name": "triviaadd",
+  "aliases": [],
+  "desc": "Add a custom question: `category | easy|medium|hard | question | correct | wrong1 | wrong2 | wrong3 | explanation`",
+  "sig": "<spec>",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "triviaadd",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 660,
+  "kind": "prefix",
+  "name": "triviaremove",
+  "aliases": [],
+  "desc": "List custom questions, or remove one by ID.",
+  "sig": "[question_id]",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "triviaremove",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 677,
+  "kind": "prefix",
+  "name": "guessnumber",
+  "aliases": [
+   "numberguess",
+   "gn"
+  ],
+  "desc": "Guess my number (7 tries, hints after each guess).",
+  "sig": "[maximum]",
+  "perm": [],
+  "fn": "guessnumber",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 705,
+  "kind": "prefix",
+  "name": "hangman",
+  "aliases": [
+   "wordguess"
+  ],
+  "desc": "Guess the word letter by letter (6 lives). Type single letters or the whole word.",
+  "sig": "",
+  "perm": [],
+  "fn": "hangman",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 748,
+  "kind": "prefix",
+  "name": "emojiguess",
+  "aliases": [
+   "emojiquiz"
+  ],
+  "desc": "Guess the movie/phrase from emojis — first correct answer in the channel wins.",
+  "sig": "",
+  "perm": [],
+  "fn": "emojiguess",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 768,
+  "kind": "prefix",
+  "name": "riddle",
+  "aliases": [],
+  "desc": "A riddle with a reveal button.",
+  "sig": "",
+  "perm": [],
+  "fn": "riddle",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 782,
+  "kind": "prefix",
+  "name": "memory",
+  "aliases": [],
+  "desc": "Memorise the emoji sequence, then repeat it with the buttons.",
+  "sig": "[length]",
+  "perm": [],
+  "fn": "memory",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 808,
+  "kind": "prefix",
+  "name": "reaction",
+  "aliases": [
+   "reactiontest",
+   "fastest"
+  ],
+  "desc": "First to press the button when it turns green wins.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "reaction",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 828,
+  "kind": "prefix",
+  "name": "wordchain",
+  "aliases": [],
+  "desc": "Word chain: each word must start with the last letter of the previous one. `!wordchain start|stop`",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "wordchain",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 834,
+  "kind": "sub-command",
+  "name": "wordchain start",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "wc_start",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 842,
+  "kind": "sub-command",
+  "name": "wordchain stop",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "wc_stop",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 876,
+  "kind": "prefix",
+  "name": "gamesboard",
+  "aliases": [
+   "gameslb",
+   "gameleaderboard"
+  ],
+  "desc": "Game leaderboard (all games, or one: tictactoe, connect4, rps, trivia, hangman, guessnumber, memory, reaction, wordchain, emojiguess, dailyquiz).",
+  "sig": "[game]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "gamesboard",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/games.py",
+  "line": 889,
+  "kind": "prefix",
+  "name": "gamehistory",
+  "aliases": [
+   "matches"
+  ],
+  "desc": "Recent matches (optionally for one member).",
+  "sig": "[member]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "gamehistory",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 141,
+  "kind": "prefix",
+  "name": "case",
+  "aliases": [],
+  "desc": "Show one moderation case.",
+  "sig": "<number>",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "case",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 151,
+  "kind": "prefix",
+  "name": "reason",
+  "aliases": [],
+  "desc": "Update the reason on a case.",
+  "sig": "<number> <text>",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "reason",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 159,
+  "kind": "prefix",
+  "name": "cases",
+  "aliases": [],
+  "desc": "List recent cases (optionally for one member).",
+  "sig": "[member]",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "cases",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 171,
+  "kind": "prefix",
+  "name": "note",
+  "aliases": [],
+  "desc": "Add a private moderator note (the member is not told).",
+  "sig": "<member> <text>",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "note",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 180,
+  "kind": "prefix",
+  "name": "notes",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member>",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "notes",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 188,
+  "kind": "prefix",
+  "name": "delnote",
+  "aliases": [],
+  "desc": "",
+  "sig": "<note_id>",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "delnote",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 195,
+  "kind": "prefix",
+  "name": "modhistory",
+  "aliases": [
+   "history",
+   "offender"
+  ],
+  "desc": "Repeat-offender summary: warnings, cases, notes and review items.",
+  "sig": "<member>",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "modhistory",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 218,
+  "kind": "prefix",
+  "name": "softban",
+  "aliases": [],
+  "desc": "Ban + immediate unban to clear a member's last day of messages (same owner restriction as !ban).",
+  "sig": "<member> [reason]",
+  "perm": [
+   "guild_only()",
+   "bot_has_guild_permissions(ban_members=True)"
+  ],
+  "fn": "softban",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 236,
+  "kind": "prefix",
+  "name": "reviewqueue",
+  "aliases": [
+   "rq"
+  ],
+  "desc": "Items waiting for a human decision (automod flags, reports, verification).",
+  "sig": "[status]",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "reviewqueue",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/moderation.py",
+  "line": 246,
+  "kind": "prefix",
+  "name": "rqclose",
+  "aliases": [],
+  "desc": "",
+  "sig": "<item_id> [status]",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "rqclose",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/polls.py",
+  "line": 207,
+  "kind": "prefix",
+  "name": "polls",
+  "aliases": [],
+  "desc": "Button polls. `!polls new Question | A | B [| C...] [--anon] [--multi] [--for 2h]`",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "polls",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/polls.py",
+  "line": 222,
+  "kind": "sub-command",
+  "name": "polls new",
+  "aliases": [
+   "create"
+  ],
+  "desc": "",
+  "sig": "<spec>",
+  "perm": [],
+  "fn": "new",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/polls.py",
+  "line": 233,
+  "kind": "sub-command",
+  "name": "polls yesno",
+  "aliases": [],
+  "desc": "",
+  "sig": "<spec>",
+  "perm": [],
+  "fn": "yesno",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/polls.py",
+  "line": 243,
+  "kind": "slash",
+  "name": "pollnew",
+  "aliases": [],
+  "desc": "Create a button poll",
+  "sig": "<question> [options] [duration] [anonymous] [multiple]",
+  "perm": [
+   "app_guild_only()"
+  ],
+  "fn": "pollnew",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/polls.py",
+  "line": 253,
+  "kind": "sub-command",
+  "name": "polls end",
+  "aliases": [
+   "close"
+  ],
+  "desc": "",
+  "sig": "<poll_id>",
+  "perm": [],
+  "fn": "end",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/polls.py",
+  "line": 264,
+  "kind": "sub-command",
+  "name": "polls results",
+  "aliases": [],
+  "desc": "",
+  "sig": "<poll_id>",
+  "perm": [],
+  "fn": "results",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/polls.py",
+  "line": 271,
+  "kind": "sub-command",
+  "name": "polls list",
+  "aliases": [
+   "history"
+  ],
+  "desc": "",
+  "sig": "[status]",
+  "perm": [],
+  "fn": "list_",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/reminders.py",
+  "line": 85,
+  "kind": "prefix+slash",
+  "name": "remind",
+  "aliases": [],
+  "desc": "Set a reminder (e.g. 10, 2h30m, tomorrow 9am)",
+  "sig": "<when> <text>",
+  "perm": [],
+  "fn": "remind",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/reminders.py",
+  "line": 91,
+  "kind": "prefix",
+  "name": "remindevery",
+  "aliases": [
+   "recurring"
+  ],
+  "desc": "Recurring reminder: `!remindevery 1d drink water` (minimum 10 minutes).",
+  "sig": "<interval> <text>",
+  "perm": [],
+  "fn": "remindevery",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/reminders.py",
+  "line": 101,
+  "kind": "prefix",
+  "name": "serverremind",
+  "aliases": [
+   "sremind"
+  ],
+  "desc": "Staff: `!serverremind #channel <when> <text>` or `!serverremind #channel every 1d <text>`.",
+  "sig": "<channel> <spec>",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "serverremind",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/reminders.py",
+  "line": 116,
+  "kind": "prefix",
+  "name": "reminders",
+  "aliases": [
+   "myreminders"
+  ],
+  "desc": "Your pending reminders (and this server's, for staff).",
+  "sig": "",
+  "perm": [],
+  "fn": "reminders",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/reminders.py",
+  "line": 126,
+  "kind": "prefix",
+  "name": "reminder",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "reminder",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/reminders.py",
+  "line": 138,
+  "kind": "sub-command",
+  "name": "reminder cancel",
+  "aliases": [
+   "delete",
+   "remove"
+  ],
+  "desc": "",
+  "sig": "<rid>",
+  "perm": [],
+  "fn": "cancel",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/reminders.py",
+  "line": 145,
+  "kind": "sub-command",
+  "name": "reminder edit",
+  "aliases": [],
+  "desc": "",
+  "sig": "<rid> <text>",
+  "perm": [],
+  "fn": "edit",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/reminders.py",
+  "line": 152,
+  "kind": "sub-command",
+  "name": "reminder move",
+  "aliases": [
+   "reschedule"
+  ],
+  "desc": "",
+  "sig": "<rid> <when>",
+  "perm": [],
+  "fn": "move",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/rules.py",
+  "line": 131,
+  "kind": "prefix",
+  "name": "rules",
+  "aliases": [],
+  "desc": "Show the current rules (with an accept button).",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "rules",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/rules.py",
+  "line": 137,
+  "kind": "sub-command",
+  "name": "rules draft",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "checks.admin_only()"
+  ],
+  "fn": "rules_draft",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/rules.py",
+  "line": 143,
+  "kind": "sub-command",
+  "name": "rules history",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "checks.admin_only()"
+  ],
+  "fn": "rules_history",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/rules.py",
+  "line": 149,
+  "kind": "prefix",
+  "name": "rule",
+  "aliases": [],
+  "desc": "Look up a single rule by number.",
+  "sig": "<number>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "rule",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/rules.py",
+  "line": 160,
+  "kind": "prefix",
+  "name": "rulesedit",
+  "aliases": [],
+  "desc": "Edit the rules: `!rulesedit` opens an editor (button), or pass the full text with one rule per line.",
+  "sig": "[text]",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "rulesedit",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/rules.py",
+  "line": 180,
+  "kind": "prefix",
+  "name": "rulespublish",
+  "aliases": [],
+  "desc": "Publish the draft as a new rules version (members can re-accept).",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "rulespublish",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/rules.py",
+  "line": 202,
+  "kind": "prefix",
+  "name": "rulesstatus",
+  "aliases": [],
+  "desc": "How many members accepted the current rules.",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.mod_only()"
+  ],
+  "fn": "rulesstatus",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/starboard.py",
+  "line": 209,
+  "kind": "prefix",
+  "name": "save",
+  "aliases": [
+   "bookmark"
+  ],
+  "desc": "Bookmark a message (reply to it, or give its link). The copy is DM'd only to you.",
+  "sig": "[link] [note]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "save",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/starboard.py",
+  "line": 226,
+  "kind": "prefix",
+  "name": "bookmarks",
+  "aliases": [],
+  "desc": "Your saved messages (sent by DM).",
+  "sig": "",
+  "perm": [],
+  "fn": "bookmarks",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/starboard.py",
+  "line": 238,
+  "kind": "prefix",
+  "name": "unbookmark",
+  "aliases": [],
+  "desc": "",
+  "sig": "<bookmark_id>",
+  "perm": [],
+  "fn": "unbookmark",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/starboard.py",
+  "line": 244,
+  "kind": "prefix",
+  "name": "starboardtop",
+  "aliases": [
+   "startop"
+  ],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "starboardtop",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 211,
+  "kind": "prefix+slash",
+  "name": "stats",
+  "aliases": [],
+  "desc": "Server activity statistics",
+  "sig": "[period]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "stats_group",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 227,
+  "kind": "sub-command",
+  "name": "stats daily",
+  "aliases": [],
+  "desc": "Last 24 hours",
+  "sig": "",
+  "perm": [],
+  "fn": "daily",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 231,
+  "kind": "sub-command",
+  "name": "stats weekly",
+  "aliases": [],
+  "desc": "Last 7 days",
+  "sig": "",
+  "perm": [],
+  "fn": "weekly",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 235,
+  "kind": "sub-command",
+  "name": "stats monthly",
+  "aliases": [],
+  "desc": "Last 30 days",
+  "sig": "",
+  "perm": [],
+  "fn": "monthly",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 239,
+  "kind": "sub-command",
+  "name": "stats alltime",
+  "aliases": [],
+  "desc": "Everything tracked",
+  "sig": "",
+  "perm": [],
+  "fn": "alltime",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 244,
+  "kind": "sub-command",
+  "name": "stats member",
+  "aliases": [],
+  "desc": "One member's activity report",
+  "sig": "[member] [period]",
+  "perm": [],
+  "fn": "member",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 253,
+  "kind": "sub-command",
+  "name": "stats channel",
+  "aliases": [],
+  "desc": "Channel activity ranking, or one channel's numbers",
+  "sig": "[channel] [period]",
+  "perm": [],
+  "fn": "channel",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 279,
+  "kind": "sub-command",
+  "name": "stats voice",
+  "aliases": [],
+  "desc": "Voice participation ranking",
+  "sig": "[period]",
+  "perm": [],
+  "fn": "voice",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 303,
+  "kind": "sub-command",
+  "name": "stats joins",
+  "aliases": [],
+  "desc": "Join and leave trends",
+  "sig": "[days]",
+  "perm": [],
+  "fn": "joins",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/statsx.py",
+  "line": 325,
+  "kind": "sub-command",
+  "name": "stats report",
+  "aliases": [],
+  "desc": "Full community report (admins)",
+  "sig": "[period]",
+  "perm": [],
+  "fn": "report",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 355,
+  "kind": "prefix",
+  "name": "ticketpanel",
+  "aliases": [],
+  "desc": "Post the 'Open a ticket' button.",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "ticketpanel",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 372,
+  "kind": "prefix",
+  "name": "ticket",
+  "aliases": [],
+  "desc": "Ticket tools (use inside a ticket channel).",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "ticket",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 390,
+  "kind": "sub-command",
+  "name": "ticket claim",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "t_claim",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 397,
+  "kind": "sub-command",
+  "name": "ticket transfer",
+  "aliases": [
+   "assign"
+  ],
+  "desc": "",
+  "sig": "<staff_member>",
+  "perm": [],
+  "fn": "t_transfer",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 406,
+  "kind": "sub-command",
+  "name": "ticket priority",
+  "aliases": [],
+  "desc": "",
+  "sig": "<level>",
+  "perm": [],
+  "fn": "t_priority",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 416,
+  "kind": "sub-command",
+  "name": "ticket close",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "t_close",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 425,
+  "kind": "sub-command",
+  "name": "ticket reopen",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "t_reopen",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 431,
+  "kind": "sub-command",
+  "name": "ticket add",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member>",
+  "perm": [],
+  "fn": "t_add",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 438,
+  "kind": "sub-command",
+  "name": "ticket remove",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member>",
+  "perm": [],
+  "fn": "t_remove",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 447,
+  "kind": "sub-command",
+  "name": "ticket transcript",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "t_transcript",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 458,
+  "kind": "sub-command",
+  "name": "ticket stats",
+  "aliases": [],
+  "desc": "",
+  "sig": "[days]",
+  "perm": [],
+  "fn": "t_stats",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 481,
+  "kind": "sub-command",
+  "name": "ticket archive",
+  "aliases": [],
+  "desc": "List closed tickets (staff).",
+  "sig": "",
+  "perm": [],
+  "fn": "t_archive",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 490,
+  "kind": "sub-group",
+  "name": "ticket category",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "t_category",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 496,
+  "kind": "sub-command",
+  "name": "ticket category add",
+  "aliases": [],
+  "desc": "",
+  "sig": "<emoji> <rest>",
+  "perm": [
+   "checks.admin_only()"
+  ],
+  "fn": "t_cat_add",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/tickets.py",
+  "line": 505,
+  "kind": "sub-command",
+  "name": "ticket category remove",
+  "aliases": [],
+  "desc": "",
+  "sig": "<name>",
+  "perm": [
+   "checks.admin_only()"
+  ],
+  "fn": "t_cat_remove",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 49,
+  "kind": "prefix+slash",
+  "name": "serverinfo",
+  "aliases": [],
+  "desc": "Display information about this server",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "serverinfo",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 79,
+  "kind": "prefix+slash",
+  "name": "userinfo",
+  "aliases": [],
+  "desc": "Display information about a server member",
+  "sig": "[member]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "userinfo",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 99,
+  "kind": "prefix+slash",
+  "name": "avatar",
+  "aliases": [],
+  "desc": "View a member's avatar",
+  "sig": "[member]",
+  "perm": [],
+  "fn": "avatar",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 112,
+  "kind": "prefix+slash",
+  "name": "banner",
+  "aliases": [],
+  "desc": "View a member's profile banner",
+  "sig": "[member]",
+  "perm": [],
+  "fn": "banner",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 125,
+  "kind": "prefix+slash",
+  "name": "profile",
+  "aliases": [],
+  "desc": "A member's profile card",
+  "sig": "[member]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "profile",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 151,
+  "kind": "prefix",
+  "name": "roleslist",
+  "aliases": [
+   "myroles"
+  ],
+  "desc": "List a member's roles (highest first).",
+  "sig": "[member]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "roleslist",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 159,
+  "kind": "prefix",
+  "name": "emoji",
+  "aliases": [
+   "enlarge",
+   "bigemoji"
+  ],
+  "desc": "Show a custom emoji large with its info.",
+  "sig": "<emoji>",
+  "perm": [],
+  "fn": "emoji",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 177,
+  "kind": "prefix",
+  "name": "emojis",
+  "aliases": [
+   "emojilist"
+  ],
+  "desc": "List this server's custom emojis.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "emojis",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 187,
+  "kind": "prefix",
+  "name": "quote",
+  "aliases": [],
+  "desc": "Quote a message by its link (only from channels you can read).",
+  "sig": "<link>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "quote",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 204,
+  "kind": "prefix",
+  "name": "funfact",
+  "aliases": [
+   "fact"
+  ],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "funfact",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/utility.py",
+  "line": 208,
+  "kind": "prefix",
+  "name": "commandsearch",
+  "aliases": [
+   "findcommand",
+   "searchcmd"
+  ],
+  "desc": "Search ATLAS's commands by name or description.",
+  "sig": "<word>",
+  "perm": [],
+  "fn": "commandsearch",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/verification.py",
+  "line": 143,
+  "kind": "prefix",
+  "name": "verify",
+  "aliases": [],
+  "desc": "Verification tools. Staff: panel, grantall, approve, deny, stats.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "verify",
+  "group": true
+ },
+ {
+  "file": "atlas_ext/verification.py",
+  "line": 149,
+  "kind": "sub-command",
+  "name": "verify panel",
+  "aliases": [],
+  "desc": "Post the verification button.",
+  "sig": "[channel]",
+  "perm": [
+   "checks.admin_only()"
+  ],
+  "fn": "panel",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/verification.py",
+  "line": 165,
+  "kind": "sub-command",
+  "name": "verify grantall",
+  "aliases": [],
+  "desc": "Give the verified role to every current human member (lock-out protection).",
+  "sig": "",
+  "perm": [
+   "checks.admin_only()"
+  ],
+  "fn": "grantall",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/verification.py",
+  "line": 194,
+  "kind": "sub-command",
+  "name": "verify approve",
+  "aliases": [],
+  "desc": "Manually verify a member.",
+  "sig": "<member>",
+  "perm": [
+   "checks.mod_only()"
+  ],
+  "fn": "approve",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/verification.py",
+  "line": 208,
+  "kind": "sub-command",
+  "name": "verify deny",
+  "aliases": [],
+  "desc": "Record a denied verification (the member simply stays unverified; nothing else happens).",
+  "sig": "<member> [reason]",
+  "perm": [
+   "checks.mod_only()"
+  ],
+  "fn": "deny",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/verification.py",
+  "line": 217,
+  "kind": "sub-command",
+  "name": "verify stats",
+  "aliases": [],
+  "desc": "",
+  "sig": "[days]",
+  "perm": [
+   "checks.mod_only()"
+  ],
+  "fn": "stats",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/voice.py",
+  "line": 69,
+  "kind": "prefix",
+  "name": "vstatus",
+  "aliases": [
+   "voicestatus"
+  ],
+  "desc": "ATLAS's voice connection, listeners, playback and queue.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "vstatus",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/voice.py",
+  "line": 75,
+  "kind": "prefix",
+  "name": "vdiag",
+  "aliases": [
+   "voicediag"
+  ],
+  "desc": "Detailed voice diagnostics: permissions, libraries, recent errors.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "vdiag",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/voice.py",
+  "line": 98,
+  "kind": "prefix",
+  "name": "queue",
+  "aliases": [
+   "ttsqueue"
+  ],
+  "desc": "Show the TTS queue.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "queue",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/voice.py",
+  "line": 143,
+  "kind": "prefix",
+  "name": "skip",
+  "aliases": [],
+  "desc": "Skip the line being spoken.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "skip",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/voice.py",
+  "line": 149,
+  "kind": "prefix",
+  "name": "stop",
+  "aliases": [
+   "ttsstop"
+  ],
+  "desc": "Stop speaking and clear the queue (ATLAS stays in voice).",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "stop",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/voice.py",
+  "line": 155,
+  "kind": "prefix",
+  "name": "pause",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "pause",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/voice.py",
+  "line": 160,
+  "kind": "prefix",
+  "name": "resume",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "resume",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/voice.py",
+  "line": 165,
+  "kind": "prefix",
+  "name": "volume",
+  "aliases": [
+   "vol"
+  ],
+  "desc": "Show or set TTS volume (10–200%). Applies from the next line.",
+  "sig": "[percent]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "volume",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 954,
+  "kind": "slash",
+  "name": "clear",
+  "aliases": [],
+  "desc": "NOVA deletes messages in this channel (members' messages by default)",
+  "sig": "[amount] [member] [include_bots] [everything]",
+  "perm": [
+   "app_guild_only()",
+   "app_default_permissions(manage_messages=True)"
+  ],
+  "fn": "clear_command",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 48,
+  "kind": "prefix",
+  "name": "mchannelinfo",
+  "aliases": [
+   "mchinfo"
+  ],
+  "desc": "Information about a channel.",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mchannelinfo",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 76,
+  "kind": "prefix",
+  "name": "mtopic",
+  "aliases": [
+   "mdescription"
+  ],
+  "desc": "Set (or clear) a channel's description/topic.",
+  "sig": "[channel] [text]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_channels', 'Manage Channels')"
+  ],
+  "fn": "mtopic",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 85,
+  "kind": "prefix",
+  "name": "mslowmode",
+  "aliases": [],
+  "desc": "Set slowmode: `!mslowmode 10s`, `!mslowmode 2m`, `!mslowmode off`.",
+  "sig": "[duration] [channel]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_channels', 'Manage Channels')"
+  ],
+  "fn": "mslowmode",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 119,
+  "kind": "prefix",
+  "name": "mlock",
+  "aliases": [],
+  "desc": "Lock a channel for @everyone (staff with their own permissions can still talk). Optional duration: `!mlock #ch 30m`.",
+  "sig": "[channel] [duration] [reason]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_channels', 'Manage Channels')"
+  ],
+  "fn": "mlock",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 136,
+  "kind": "prefix",
+  "name": "munlock",
+  "aliases": [],
+  "desc": "Unlock a channel (restores the previous @everyone settings).",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_channels', 'Manage Channels')"
+  ],
+  "fn": "munlock",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 166,
+  "kind": "prefix",
+  "name": "mcleanup",
+  "aliases": [
+   "mpurge"
+  ],
+  "desc": "Preview and delete recent messages. Filters: bots · commands · @member · contains:<text> · links · attachments · humans",
+  "sig": "[amount] [filters]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_messages', 'Manage Messages')"
+  ],
+  "fn": "mcleanup",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 215,
+  "kind": "prefix",
+  "name": "mthread",
+  "aliases": [],
+  "desc": "Start a thread (reply to a message to thread it). `!mthread Topic name`",
+  "sig": "[name]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mthread",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 237,
+  "kind": "prefix",
+  "name": "marchive",
+  "aliases": [],
+  "desc": "Archive this thread, or `!marchive #channel 7d` to archive that channel's threads inactive for 7 days.",
+  "sig": "[channel] [inactive]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_threads', 'Manage Threads')"
+  ],
+  "fn": "marchive",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 269,
+  "kind": "prefix",
+  "name": "mautothread",
+  "aliases": [],
+  "desc": "Automatically open a thread on every new message in a channel: `!mautothread #channel on|off`",
+  "sig": "[channel] [state]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_channels', 'Manage Channels')"
+  ],
+  "fn": "mautothread",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 282,
+  "kind": "prefix",
+  "name": "mforumpost",
+  "aliases": [],
+  "desc": "Create a forum post: `!mforumpost #forum Title | body`",
+  "sig": "<forum> <text>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mforumpost",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 299,
+  "kind": "prefix",
+  "name": "mpins",
+  "aliases": [],
+  "desc": "List pinned messages with jump links.",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mpins",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 311,
+  "kind": "prefix",
+  "name": "msearch",
+  "aliases": [],
+  "desc": "Search recent messages (last 1000) in a channel you can read; results are DM'd to you.",
+  "sig": "[channel] <query>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "msearch",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 333,
+  "kind": "prefix",
+  "name": "mjump",
+  "aliases": [],
+  "desc": "Jump link to a message by ID, or to the first message of a channel.",
+  "sig": "[channel] [message_id]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mjump",
+  "group": false
+ },
+ {
+  "file": "nova_ext/channels.py",
+  "line": 346,
+  "kind": "prefix",
+  "name": "msticky",
+  "aliases": [],
+  "desc": "Keep a message at the bottom of this channel: `!msticky <text>`, `!msticky off`.",
+  "sig": "[text]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_messages', 'Manage Messages')"
+  ],
+  "fn": "msticky",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 298,
+  "kind": "prefix",
+  "name": "mrolemenu",
+  "aliases": [
+   "mrm"
+  ],
+  "desc": "Role menus. Subcommands: create, add, remove, mode, require, preview, validate, post, refresh, list, delete.",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mrolemenu",
+  "group": true
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 306,
+  "kind": "sub-command",
+  "name": "mrolemenu create",
+  "aliases": [],
+  "desc": "",
+  "sig": "<style> <text>",
+  "perm": [],
+  "fn": "rm_create",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 322,
+  "kind": "sub-command",
+  "name": "mrolemenu add",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id> <role> [rest]",
+  "perm": [],
+  "fn": "rm_add",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 344,
+  "kind": "sub-command",
+  "name": "mrolemenu remove",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id> <role>",
+  "perm": [],
+  "fn": "rm_remove",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 351,
+  "kind": "sub-command",
+  "name": "mrolemenu mode",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id> <mode>",
+  "perm": [],
+  "fn": "rm_mode",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 361,
+  "kind": "sub-command",
+  "name": "mrolemenu require",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id> <role>",
+  "perm": [],
+  "fn": "rm_require",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 375,
+  "kind": "sub-command",
+  "name": "mrolemenu preview",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id>",
+  "perm": [],
+  "fn": "rm_preview",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 383,
+  "kind": "sub-command",
+  "name": "mrolemenu validate",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id>",
+  "perm": [],
+  "fn": "rm_validate",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 390,
+  "kind": "sub-command",
+  "name": "mrolemenu post",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id> [channel]",
+  "perm": [],
+  "fn": "rm_post",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 403,
+  "kind": "sub-command",
+  "name": "mrolemenu refresh",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id>",
+  "perm": [],
+  "fn": "rm_refresh",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 416,
+  "kind": "sub-command",
+  "name": "mrolemenu list",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "rm_list",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 422,
+  "kind": "sub-command",
+  "name": "mrolemenu delete",
+  "aliases": [],
+  "desc": "",
+  "sig": "<menu_id>",
+  "perm": [],
+  "fn": "rm_delete",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 440,
+  "kind": "prefix",
+  "name": "mreactionrole",
+  "aliases": [
+   "mrr"
+  ],
+  "desc": "Reaction roles: add <message link> <emoji> @Role · remove <message link> <emoji> · list",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mreactionrole",
+  "group": true
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 447,
+  "kind": "sub-command",
+  "name": "mreactionrole add",
+  "aliases": [],
+  "desc": "",
+  "sig": "<link> <emoji> <role>",
+  "perm": [],
+  "fn": "rr_add",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 465,
+  "kind": "sub-command",
+  "name": "mreactionrole remove",
+  "aliases": [],
+  "desc": "",
+  "sig": "<link> <emoji>",
+  "perm": [],
+  "fn": "rr_remove",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 506,
+  "kind": "prefix",
+  "name": "mtemprole",
+  "aliases": [],
+  "desc": "Give a role that is removed automatically: `!mtemprole @member @Role 2d [reason]`",
+  "sig": "<member> <role> <duration> [reason]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mtemprole",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 528,
+  "kind": "prefix",
+  "name": "mtemproles",
+  "aliases": [],
+  "desc": "Active temporary roles.",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mtemproles",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 536,
+  "kind": "prefix",
+  "name": "mtemprolecancel",
+  "aliases": [],
+  "desc": "Cancel a temporary role: `!mtemprolecancel <id> [keep|remove]` (keep = make it permanent).",
+  "sig": "<temp_id> [keep]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mtemprolecancel",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 599,
+  "kind": "prefix",
+  "name": "mrolecleanup",
+  "aliases": [],
+  "desc": "Preview empty roles. Only NOVA's own unused colour roles can be deleted here (with confirmation).",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mrolecleanup",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 625,
+  "kind": "prefix",
+  "name": "mroletemplate",
+  "aliases": [
+   "mrt"
+  ],
+  "desc": "Role templates: list, show <name>, save <name> @roles..., apply <name>, delete <name>",
+  "sig": "",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mroletemplate",
+  "group": true
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 638,
+  "kind": "sub-command",
+  "name": "mroletemplate show",
+  "aliases": [],
+  "desc": "",
+  "sig": "<name>",
+  "perm": [],
+  "fn": "rt_show",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 645,
+  "kind": "sub-command",
+  "name": "mroletemplate save",
+  "aliases": [],
+  "desc": "",
+  "sig": "<name> <roles>",
+  "perm": [],
+  "fn": "rt_save",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 654,
+  "kind": "sub-command",
+  "name": "mroletemplate apply",
+  "aliases": [],
+  "desc": "",
+  "sig": "<name>",
+  "perm": [],
+  "fn": "rt_apply",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 684,
+  "kind": "sub-command",
+  "name": "mroletemplate delete",
+  "aliases": [],
+  "desc": "",
+  "sig": "<name>",
+  "perm": [],
+  "fn": "rt_delete",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 692,
+  "kind": "prefix",
+  "name": "mbulkrole",
+  "aliases": [],
+  "desc": "Bulk add/remove a role with preview + confirmation.",
+  "sig": "<action> <role> [target]",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mbulkrole",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 758,
+  "kind": "prefix",
+  "name": "mroleinfo",
+  "aliases": [],
+  "desc": "Details about a role.",
+  "sig": "<role>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mroleinfo",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 777,
+  "kind": "prefix",
+  "name": "mroleperms",
+  "aliases": [],
+  "desc": "Every permission a role grants.",
+  "sig": "<role>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mroleperms",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 784,
+  "kind": "prefix",
+  "name": "mpermcompare",
+  "aliases": [],
+  "desc": "Compare two roles' permissions.",
+  "sig": "<a> <b>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mpermcompare",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 798,
+  "kind": "prefix",
+  "name": "mrolehierarchy",
+  "aliases": [
+   "mhierarchy"
+  ],
+  "desc": "Role order with what NOVA can manage.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mrolehierarchy",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 811,
+  "kind": "prefix",
+  "name": "mroleeligible",
+  "aliases": [
+   "mcanget"
+  ],
+  "desc": "Explain whether a member can get a role (via NOVA's menus / staff tools).",
+  "sig": "<member> <role>",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mroleeligible",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 833,
+  "kind": "prefix",
+  "name": "mrolehistory",
+  "aliases": [],
+  "desc": "Role change history for a member or a role.",
+  "sig": "<target>",
+  "perm": [
+   "guild_only()",
+   "checks.perm_only('manage_roles', 'Manage Roles')"
+  ],
+  "fn": "mrolehistory",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 855,
+  "kind": "prefix",
+  "name": "mbotroles",
+  "aliases": [
+   "mpermcheck"
+  ],
+  "desc": "NOVA's highest role, permissions and channel-level conflicts (read-only).",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mbotroles",
+  "group": false
+ },
+ {
+  "file": "nova_ext/roles.py",
+  "line": 870,
+  "kind": "prefix",
+  "name": "mchannelperms",
+  "aliases": [],
+  "desc": "Effective permissions for a member or role in a channel (read-only).",
+  "sig": "<channel> [target]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mchannelperms",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 295,
+  "kind": "prefix",
+  "name": "mvc",
+  "aliases": [
+   "mtempvc"
+  ],
+  "desc": "Temporary rooms. In your room: name, limit, lock, unlock, hide, show, transfer, claim, panel. Admin: setup, hubs, removehub.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mvc",
+  "group": true
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 308,
+  "kind": "sub-command",
+  "name": "mvc name",
+  "aliases": [
+   "rename"
+  ],
+  "desc": "",
+  "sig": "<name>",
+  "perm": [],
+  "fn": "mvc_name",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 312,
+  "kind": "sub-command",
+  "name": "mvc limit",
+  "aliases": [],
+  "desc": "",
+  "sig": "<limit>",
+  "perm": [],
+  "fn": "mvc_limit",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 316,
+  "kind": "sub-command",
+  "name": "mvc lock",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "mvc_lock",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 323,
+  "kind": "sub-command",
+  "name": "mvc unlock",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "mvc_unlock",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 330,
+  "kind": "sub-command",
+  "name": "mvc hide",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "mvc_hide",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 337,
+  "kind": "sub-command",
+  "name": "mvc show",
+  "aliases": [
+   "unhide"
+  ],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "mvc_show",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 344,
+  "kind": "sub-command",
+  "name": "mvc claim",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "mvc_claim",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 351,
+  "kind": "sub-command",
+  "name": "mvc transfer",
+  "aliases": [],
+  "desc": "",
+  "sig": "<member>",
+  "perm": [],
+  "fn": "mvc_transfer",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 358,
+  "kind": "sub-command",
+  "name": "mvc panel",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "mvc_panel",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 367,
+  "kind": "sub-command",
+  "name": "mvc setup",
+  "aliases": [],
+  "desc": "",
+  "sig": "<hub> [category] [template]",
+  "perm": [
+   "checks.perm_only('manage_channels', 'Manage Channels')"
+  ],
+  "fn": "mvc_setup",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 383,
+  "kind": "sub-command",
+  "name": "mvc hubs",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "checks.perm_only('manage_channels', 'Manage Channels')"
+  ],
+  "fn": "mvc_hubs",
+  "group": false
+ },
+ {
+  "file": "nova_ext/tempvoice.py",
+  "line": 390,
+  "kind": "sub-command",
+  "name": "mvc removehub",
+  "aliases": [],
+  "desc": "",
+  "sig": "<hub>",
+  "perm": [
+   "checks.perm_only('manage_channels', 'Manage Channels')"
+  ],
+  "fn": "mvc_removehub",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 97,
+  "kind": "prefix",
+  "name": "mvstatus",
+  "aliases": [
+   "mvoicestatus"
+  ],
+  "desc": "NOVA's voice connection, playback and queue.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mvstatus",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 103,
+  "kind": "prefix",
+  "name": "mvdiag",
+  "aliases": [
+   "mvoicediag"
+  ],
+  "desc": "NOVA's voice diagnostics: permissions, libraries, recent errors.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mvdiag",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 124,
+  "kind": "prefix",
+  "name": "mqueue",
+  "aliases": [],
+  "desc": "NOVA's TTS queue.",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mqueue",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 167,
+  "kind": "prefix",
+  "name": "mskip",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mskip",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 172,
+  "kind": "prefix",
+  "name": "mstop",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mstop",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 177,
+  "kind": "prefix",
+  "name": "mpause",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mpause",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 182,
+  "kind": "prefix",
+  "name": "mresume",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mresume",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 187,
+  "kind": "prefix",
+  "name": "mvolume",
+  "aliases": [
+   "mvol"
+  ],
+  "desc": "Show or set NOVA's TTS volume (10–200%).",
+  "sig": "[percent]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mvolume",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 201,
+  "kind": "prefix",
+  "name": "mvoiceinfo",
+  "aliases": [
+   "mvcinfo",
+   "mwhoisin"
+  ],
+  "desc": "Who's in a voice channel and for how long (yours by default).",
+  "sig": "[channel]",
+  "perm": [
+   "guild_only()"
+  ],
+  "fn": "mvoiceinfo",
+  "group": false
+ },
+ {
+  "file": "nova_ext/voice.py",
+  "line": 220,
+  "kind": "prefix",
+  "name": "mafk",
+  "aliases": [],
+  "desc": "Set (or clear) the server's AFK voice channel and idle timeout (1, 5, 15, 30 or 60 minutes).",
+  "sig": "[channel] [minutes]",
+  "perm": [
+   "guild_only()",
+   "checks.admin_only()"
+  ],
+  "fn": "mafk",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/feedback.py",
+  "line": 0,
+  "kind": "context-menu",
+  "name": "Report message",
+  "aliases": [],
+  "desc": "Right-click a message → Apps",
+  "sig": "",
+  "perm": [],
+  "fn": "",
+  "group": false
+ },
+ {
+  "file": "atlas_ext/starboard.py",
+  "line": 0,
+  "kind": "context-menu",
+  "name": "Bookmark message",
+  "aliases": [],
+  "desc": "Right-click a message → Apps",
+  "sig": "",
+  "perm": [],
+  "fn": "",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1067,
+  "kind": "prefix (message handler)",
+  "name": "pfp",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_pfp",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1068,
+  "kind": "prefix (message handler)",
+  "name": "mjoin",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_mjoin",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1069,
+  "kind": "prefix (message handler)",
+  "name": "mleave",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_mleave",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1070,
+  "kind": "prefix (message handler)",
+  "name": "mtts",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_mtts",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1071,
+  "kind": "prefix (message handler)",
+  "name": "mttsdisable",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_mttsdisable",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1072,
+  "kind": "prefix (message handler)",
+  "name": "colours",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_colours",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1073,
+  "kind": "prefix (message handler)",
+  "name": "colors",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_colours",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1074,
+  "kind": "prefix (message handler)",
+  "name": "mclearrolecolour",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_clear_role_colour",
+  "group": false
+ },
+ {
+  "file": "nova.py",
+  "line": 1075,
+  "kind": "prefix (message handler)",
+  "name": "mclearrolecolor",
+  "aliases": [],
+  "desc": "",
+  "sig": "",
+  "perm": [],
+  "fn": "handle_clear_role_colour",
+  "group": false
+ }
+]
